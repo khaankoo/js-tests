@@ -1,0 +1,158 @@
+* {
+    margin: 0%;
+}
+.flex {
+    display: flex;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    flex-direction: column;
+    width: 500px;
+    height: 630px;
+    background-color: black;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas: 
+    "haalt1 haalt2 huvi ustgah"
+    "seven eight nine huvaah"
+    "four five six urjih"
+    "one two three hasah"
+    "zero tseg equal plus";
+    grid-gap: 13px;
+}
+.btn-1 {
+    grid-area: haalt1;
+    background-color: rgb(88, 88, 88);
+}
+.btn-2 {
+    grid-area: haalt2;
+    background-color: rgb(88, 88, 88);
+}
+.btn-3 {
+    grid-area: huvi;
+    background-color: rgb(88, 88, 88);
+}
+.btn-4 {
+    grid-area: ustgah;
+    background-color: rgb(88, 88, 88);
+}
+.btn-5 {
+    grid-area: seven;
+    background-color: rgb(31, 30, 30);
+}
+.btn-6 {
+    grid-area: eight;
+    background-color: rgb(31, 30, 30);
+}
+.btn-7 {
+    grid-area: nine;
+    background-color: rgb(31, 30, 30);
+}
+.btn-8 {
+    grid-area: huvaah;
+    background-color: rgb(88, 88, 88);
+}
+.btn-9 {
+    grid-area: four;
+    background-color: rgb(31, 30, 30);
+}
+.btn-10 {
+    grid-area: five;
+    background-color: rgb(31, 30, 30);
+}
+.btn-11 {
+    grid-area: six;
+    background-color: rgb(31, 30, 30);
+}
+.btn-12 {
+    grid-area: urjih;
+    background-color: rgb(88, 88, 88);
+}
+.btn-13 {
+    grid-area: one;
+    background-color: rgb(31, 30, 30);
+}
+.btn-14 {
+    grid-area: two;
+    background-color: rgb(31, 30, 30);
+}
+.btn-15 {
+    grid-area: three;
+    background-color: rgb(31, 30, 30);
+}
+.btn-16 {
+    grid-area: hasah;
+    background-color: rgb(88, 88, 88);
+}
+.btn-17 {
+    grid-area: zero;
+    background-color: rgb(31, 30, 30);
+}
+.btn-18 {
+    grid-area: tseg;
+    background-color: rgb(88, 88, 88);
+}
+.btn-19 {
+    grid-area: equal;
+    background-color: rgb(88, 88, 88);
+}
+.btn-20 {
+    grid-area: plus;
+    background-color: rgb(88, 88, 88);
+}
+.items {
+    height: 60px;
+    width: 115px;
+    border-radius: 10px;
+    border: 0px solid;
+    color: #fff;
+    font-size: 20px;
+}
+textarea {
+    height: 150px;
+    width: 495px;
+    border-radius: 10px;
+}
+.num {
+    width: 110px;
+    height: 35px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid;
+    color: rgb(118, 118, 228);
+    background-color: rgb(44, 43, 43);
+    border-color: rgb(118, 118, 228);
+}
+.fx {
+    width: 110px;
+    height: 35px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid;
+    color: #fff;
+    background-color: rgb(44, 43, 43);
+}
+.result {
+    justify-content: center;
+    align-items: center;
+    height: 39%;
+    color: white;
+}
+.result span {
+    margin-right: 0px;
+    font-size: 100px;
+    justify-content: flex-end;
+}
